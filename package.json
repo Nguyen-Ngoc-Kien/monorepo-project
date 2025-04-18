@@ -1,0 +1,13 @@
+{
+  "name": "forex-calculator-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter @forex-calculator/web dev",
+    "build": "pnpm --filter @forex-calculator/web build",
+    "preview": "pnpm --filter @forex-calculator/web preview",
+    "clean": "rm -rf node_modules */node_modules packages/*/node_modules"
+  },
+  "devDependencies": {
+  }
+}

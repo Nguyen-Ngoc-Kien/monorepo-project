@@ -1,0 +1,6 @@
+{
+  "name": "@forex-calculator/calc-logic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module"
+}
