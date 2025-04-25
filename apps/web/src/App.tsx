@@ -3,7 +3,6 @@ import { ForexCalculator } from './components/ForexCalculator';
 import { ResultsDisplay } from './components/ResultsDisplay';
 import { Card } from '@forex-calculator/ui';
 
-// Define the shape of a result object
 interface CalculationResult {
   pair: string;
   lotSize: number;

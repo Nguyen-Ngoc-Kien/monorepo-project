@@ -1,6 +1,3 @@
-/**
- * Calculate Forex profit/loss and TP/SL values
- */
 export interface ForexCalculationResult {
   pair: string;
   lotSize: number;
@@ -61,9 +58,6 @@ export const calculateForex = (
   };
 };
 
-/**
- * Get multiplier for pip value calculation based on pair
- */
 const getPipMultiplier = (pair: string): number => {
   if (pair === "XAUUSD") {
     return 100;
@@ -74,9 +68,6 @@ const getPipMultiplier = (pair: string): number => {
   }
 };
 
-/**
- * Calculate TP and SL based on entry point and desired pip distances
- */
 export interface TPSLCalculationResult {
   takeProfitPrice: string;
   stopLossPrice: string;
